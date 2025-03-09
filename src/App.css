@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Poppins-Regular, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-after-login{
+    height: 12vh;
+    width: 100vw;
+     background: white;
+     position: relative;
+
+}
+
+.maincontainer {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.inner-container{
+margin: 70px 20px 20px 20px;
+  background: #fff;
+  
+  position: relative;
+}
+.inner-container > div{
+box-shadow: none !important;
+}
+
+.container-body {
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-grow: 1;
+overflow-x: hidden;
+}

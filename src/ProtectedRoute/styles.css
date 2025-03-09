@@ -1,0 +1,47 @@
+.p-route-background{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background: #F7F7F8;
+
+}
+
+.header-protected-route{
+    background-color: #fff;
+    box-shadow: 0 0 13px -2px #ccc;
+    left: 0;
+    /* padding: 11px 15px 10px 80px; */
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    height: 55px;
+    padding: 8px;
+}
+
+.fav-icon-width{
+    width: 30px;
+}
+
+.font-size-nav-heading{
+    font-size: 1.2rem;
+    vertical-align: bottom;
+}
+.logout-fun{
+    position: absolute;
+    z-index: 111;
+    right: 20px;
+    top: 15px;
+}
+.box-logout{
+    box-shadow: 1px 2px 7px 0px #adadad;
+    border-radius: 5px;
+    position: absolute;
+    width: 200px;
+   
+    background-color: white;
+    right: 20px;
+    z-index: 111;
+    top: 56px;
+}
+.box-logout:hover{
+    background: #e9e8e8de;
+}
