@@ -37,7 +37,7 @@ const ProtectedRoute = ({ children }: ReactNodeType) => {
           <div className='position-relative w-100'>
 
             <div className='header-protected-route'>
-              <img src='../../public/Gsynergy Logo V2 Long Description.png' className='fav-icon-width me-2' />
+              <img src='/public/Gsynergy Logo V2 Long Description.png' className='fav-icon-width me-2' />
               <IoMdMenu size={25} onClick={handleMenuClick} onBlur={handleMenuBlur} className='cursor-pointer me-2' /> <span className='font-size-nav-heading mt-4'>Data View App</span>
             </div>
 
