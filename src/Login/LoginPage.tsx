@@ -9,7 +9,7 @@ const LoginPage:React.FC = () => {
           <LoginForm/>
       </div>
         <div className='main'>
-          <img src='/public/adminLoginBg.jpg' className='img-dim' />
+          <img src='/adminLoginBg.jpg' className='img-dim' />
         </div>
        
       </div>

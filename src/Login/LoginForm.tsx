@@ -44,7 +44,7 @@ const LoginForm:React.FC = () => {
     <>
          <div>
         <div>
-            <img src='/public/Gsynergy Logo V2 Long Description.png' className='logo-dim-admin'/>
+            <img src='/Gsynergy Logo V2 Long Description.png' className='logo-dim-admin'/>
             <h4 className='heading-style'>Data View Application</h4>
             <FormGroup row>
               <Col sm='12' className='mb-2'><Input type='text' placeholder='User Name*' name='email' value={formData.email} onChange={handleChange}/></Col>
